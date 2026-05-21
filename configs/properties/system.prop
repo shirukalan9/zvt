@@ -1,0 +1,40 @@
+# Bluetooth
+bluetooth.device.class_of_device=90,1,16
+bluetooth.profile.a2dp.source.enabled=true
+bluetooth.profile.avrcp.target.enabled=true
+bluetooth.profile.bas.client.enabled=true
+bluetooth.profile.gatt.enabled=true
+bluetooth.profile.hfp.ag.enabled=true
+bluetooth.profile.hid.device.enabled=true
+bluetooth.profile.hid.host.enabled=true
+bluetooth.profile.map.server.enabled=true
+bluetooth.profile.opp.enabled=true
+bluetooth.profile.pan.nap.enabled=true
+bluetooth.profile.pan.panu.enabled=true
+bluetooth.profile.pbap.server.enabled=true
+bluetooth.profile.sap.server.enabled=true
+
+# Blur
+ro.launcher.blur.appLaunch=0
+ro.sf.blurs_are_expensive=1
+ro.surface_flinger.supports_background_blur=1
+
+# IMS
+persist.dbg.volte_avail_ovr=1
+persist.dbg.vt_avail_ovr=1
+persist.dbg.wfc_avail_ovr=1
+
+# Logging
+log.tag=I
+
+# Media
+vendor.mtk_thumbnail_optimization=true
+
+# Mediatek
+ro.vendor.mtk_cta_set=1
+ro.vendor.mtk_flv_playback_support=1
+ro.vendor.mtk_telephony_add_on_policy=0
+
+# Netflix
+ro.netflix.channel=004ee050-1a17-11e9-bb61-6f1da27fb55b
+ro.netflix.signup=1
