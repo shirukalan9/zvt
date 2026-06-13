@@ -14,6 +14,8 @@ allow hal_fingerprint_default silead_fpd_device:chr_file { ioctl read write geta
 allow hal_fingerprint_default silead_fpd_data_file:file { ioctl read write create getattr setattr lock append map unlink rename open watch watch_reads };
 allow hal_fingerprint_default silead_fpd_data_file:dir { ioctl read write create getattr lock open watch watch_reads add_name remove_name search };
 allow hal_fingerprint_default fpsensor_fp_device:chr_file { ioctl read write open };
+allow hal_fingerprint_default sysfs:dir r_dir_perms;
+allow hal_fingerprint_default sysfs:file r_file_perms;
 allow hal_fingerprint_default fp_ext_svc2_service:hwservice_manager add;
 allow hal_fingerprint_default fp_ext_svc2_service:hwservice_manager find;
 allow hal_fingerprint_default fs_service:service_manager { add find };

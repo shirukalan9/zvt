@@ -79,10 +79,6 @@ on boot
     # Stop Serial Console
     stop console
 
-    # Change owner for GED KPI
-    chown system system /sys/module/sspm_v3/holders/ged/parameters/is_GED_KPI_enabled
-    chmod 0644 /sys/module/sspm_v3/holders/ged/parameters/is_GED_KPI_enabled
-
 service vendor.nfc_hal_service /vendor/bin/hw/android.hardware.nfc-service.nxp
     class hal
     user nfc
@@ -101,8 +97,3 @@ on early-init
 
 on post-fs
    start nfc_hal_service.tms.aidl
-
-on property:sys.boot_completed=1
-    # Disable GED KPI
-    write /sys/module/sspm_v3/holders/ged/parameters/is_GED_KPI_enabled 0
-    chmod 0444 /sys/module/sspm_v3/holders/ged/parameters/is_GED_KPI_enabled
