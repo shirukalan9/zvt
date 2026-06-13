@@ -50,6 +50,7 @@ rm -rf build/soong
 git clone --depth 1 -b lineage-23.2 https://github.com/shirukalan9/zson build/soong
 rm -rf build/make
 git clone --depth 1 -b lineage-23.2 https://github.com/shirukalan9/zbuilt build/make
-
+rm -rf external/scudo
+git clone --depth 1 -b patch-1 https://github.com/shirukalan9/android_external_scudo external/scudo
 
 
