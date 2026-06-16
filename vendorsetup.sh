@@ -39,9 +39,9 @@ else
 fi
 
 rm -rf frameworks/native
-git clone --depth=1 --no-repo-verify -b ax https://github.com/shirukalan9/frameworks_native/ frameworks/native
+git clone --depth=1  -b ax https://github.com/shirukalan9/frameworks_native/ frameworks/native
 rm -rf frameworks/base
-git clone --depth=1 --no-repo-verify -b ax https://github.com/shirukalan9/frameworks_base-1 frameworks/base
+git clone --depth=1 -b ax https://github.com/shirukalan9/frameworks_base-1 frameworks/base
 rm -rf bionic
 git clone --depth 1 -b lineage-23.2 https://github.com/shirukalan9/zonic bionic
 rm -rf external/jemalloc_new
