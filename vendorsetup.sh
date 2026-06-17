@@ -2,9 +2,9 @@
 
 rm -rf vendor/infinix  device/xiaomi device/infinix
 
-git clone --depth=1 -b ab https://github.com/shirukalan9/zvt device/infinix/X6882
+#git clone --depth=1 -b ab https://github.com/shirukalan9/zvt device/infinix/X6882
 git clone --depth=1 https://github.com/shirukalan9/zvt vendor/infinix/X6882
-
+git clone --depth 1 https://github.com/javas-prjkt/device_infinix_X6882-kernel device/infinix/X6882-kernel
 #rm -rf vendor/mediatek hardware/transsion device/mediatek/sepolicy_vndr device/millennium/common-kernel packages/apps/GameBar
 
 git clone --depth=1 https://github.com/MillenniumOSS/android_vendor_mediatek_ims vendor/mediatek/ims
