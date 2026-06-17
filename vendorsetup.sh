@@ -1,6 +1,7 @@
 #!/bin/bash
 
-rm -rf vendor/infinix  device/xiaomi
+rm -rf vendor/infinix  device/xiaomi device/infinix
+
 git clone --depth=1 -b ab https://github.com/shirukalan9/zvt device/infinix/X6882
 git clone --depth=1 https://github.com/shirukalan9/zvt vendor/infinix/X6882
 
@@ -53,4 +54,7 @@ rm -rf external/scudo
 git clone --depth 1 -b patch-1 https://github.com/shirukalan9/android_external_scudo external/scudo
 rm -rf art
 git clone --depth 1 https://github.com/shirukalan9/android_art art
+
+axion X6882 user pico
+ax -br 
 
