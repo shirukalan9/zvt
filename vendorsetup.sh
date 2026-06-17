@@ -55,6 +55,4 @@ git clone --depth 1 -b patch-1 https://github.com/shirukalan9/android_external_s
 rm -rf art
 git clone --depth 1 https://github.com/shirukalan9/android_art art
 
-axion X6882 user pico
-ax -br 
 
