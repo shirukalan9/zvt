@@ -1,6 +1,6 @@
 #!/bin/bash
 
-rm -rf vendor/infinix  device/xiaomi device/infinix
+rm -rf vendor/infinix  
 
 #git clone --depth=1 -b ab https://github.com/shirukalan9/zvt device/infinix/X6882
 git clone --depth=1 https://github.com/shirukalan9/zvt vendor/infinix/X6882
